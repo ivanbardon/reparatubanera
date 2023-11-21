@@ -5,65 +5,14 @@ import Icon from '../components/Icon.astro';
 import CallToAction from '../components/CallToAction.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import Servicio from '../components/Servicio.astro';
 ---
 
 <BaseLayout title="Servicios" description="Pagina de servicios">
 	<div class="stack gap-20">
 		<main class="wrapper about">
-			<Hero
-				title="Servicios"
-				tagline="Estos son algunos de nuestros servicios"
-			>
-				<!-- <img
-					width="1553"
-					height="873"
-					src="/assets/jhonny.jpeg"
-					alt="Esmalder trabajando"
-				/> -->
-			</Hero>
-            <section>
-                <h2 class="section-title">Damos servicio a particulares y a hoteles</h2>
-                <div class="content">
-                    <p>bla bla bla bla bla bq</p>
-                </div>
-                <h2 class="section-title">Esmaltado de bañeras</h2>
-                <div class="content">
-                    <p>bla bla bla bla bla bq</p>
-                </div>
-                <h2 class="section-title">Esmaltado de plato de ducha</h2>
-                <div class="content">
-                    <p>bla bla bla bla bla bq</p>
-                </div>
-                <h2 class="section-title">Reparación de plato de ducha</h2>
-                <div class="content">
-                    <p>bla bla bla bla bla bq</p>
-                </div>
-                <h2 class="section-title">Reparar impactos, pequeños desconchones,arañazos, etc</h2>
-                <div class="content">
-                    <p>bla bla bla bla bla bq</p>
-                </div>
-                <h2 class="section-title">Esmaltado de azulejos y elementos sanitarios</h2>
-                <div class="content">
-                    <p>bla bla bla bla bla bq</p>
-                </div>
-            </section>
-
-			<section>
-				<h2 class="section-title">ReparaTuBañera</h2>
-				<div class="content">
-					<p>
-						Puedes preguntarnos tus dudas o enviarnos una foto de la bañera o ducha junto con la poblacion y te contestaremos en seguida.
-					</p>
-					<br>
-					<CallToAction href='#'>Envianos un Whatsapp
-						<Icon icon='whatsapp'></Icon>
-					</CallToAction>
-					<br>
-					<CallToAction href='#'>Contactanos via e-Mail
-						<Icon icon='paper-plane-tilt'></Icon>
-					</CallToAction>
-				</div>
-			</section>
+			<h2>Servicios</h2>
+			<Servicio />
 		</main>
 
 	</div>
