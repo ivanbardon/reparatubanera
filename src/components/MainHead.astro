@@ -4,16 +4,19 @@ import '../styles/global.css';
 interface Props {
 	title?: string | undefined;
 	description?: string | undefined;
+	keywords?: string | undefined;
 }
 
 const {
-	title = 'RepararBañera',
-	description = 'Especialistas en esmaltado de baños',
+	title = 'ReparaTuBañera',
+	description = 'Especialistas en Esmaltados Sanitarios',
+	keywords = 'reparar bañera, arreglar ducha, esmaltado de bañera, arreglar bañera picada, arreglar bañera oxidada, arreglar agujero bañera',
 } = Astro.props;
 ---
 
 <meta charset="UTF-8" />
 <meta name="description" property="og:description" content={description} />
+<meta name="keywords" content={keywords}/>
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
 <title>{title}</title>
