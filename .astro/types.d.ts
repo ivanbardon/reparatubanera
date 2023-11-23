@@ -175,23 +175,23 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"work": {
-"esmaltado sanitarios.md": {
-	id: "esmaltado sanitarios.md";
-  slug: "esmaltado-sanitarios";
+"Instalacion-de-lamina-plato.md": {
+	id: "Instalacion-de-lamina-plato.md";
+  slug: "instalacion-de-lamina-plato";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
-"lamina-antideslizante.md": {
-	id: "lamina-antideslizante.md";
-  slug: "lamina-antideslizante";
+"nested/esmaltado-completo.md": {
+	id: "nested/esmaltado-completo.md";
+  slug: "nested/esmaltado-completo";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
-"nested/reparacion-banera.md": {
-	id: "nested/reparacion-banera.md";
-  slug: "nested/reparacion-banera";
+"reparacion-desague.md": {
+	id: "reparacion-desague.md";
+  slug: "reparacion-desague";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">
