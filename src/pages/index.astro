@@ -51,16 +51,20 @@ const projects = (await getCollection('work'))
 			<header class="section-header stack gap-2 lg:gap-4">
 				<h3>Solicite presupuesto</h3>
 				<h5>Sin compromiso</h5>
-				<div>
+				<div id="whats">
 					<CallToAction href='https://api.whatsapp.com/send?phone=+34613116385'>Envíanos un Whatsapp
 						<Icon icon='whatsapp'></Icon>
 					</CallToAction>
+				</div>
 					<br>
+				<div id="tel">	
 					<CallToAction href="tel:+34613116385">
 						Llamanos al 613 116 385
 						<Icon icon="phone"></Icon>
 					</CallToAction>
+				</div>
 					<br>
+				<div id="mail">
 					<CallToAction href='mailto:info@reparatubanera.com'>Contáctanos via e-Mail
 						<Icon icon='paper-plane-tilt'></Icon>
 					</CallToAction>
