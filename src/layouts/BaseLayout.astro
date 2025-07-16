@@ -7,6 +7,7 @@ import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import BtnWhats from '../components/BtnWhats.astro';
+import ConsentCookies from '../components/ConsentCookies.astro';
 
 
 
@@ -29,6 +30,7 @@ const { title, description } = Astro.props;
 			<Nav />
 			<slot />
 			<Footer />
+			<ConsentCookies />
 		</div>
 
 		<script>
